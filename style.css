@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+}
+body{
+    width: 100%;
+    background-color: #dfdce8;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    background-color: #7366ad;
+    color: #fff;
+    height: 10vh;
+    padding: 5px;
+}
+label{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15pt;
+    font-weight: bolder;
+    margin-right: 5px;
+}
+h3{
+    display: inline;
+    font-weight: lighter;
+    font-size: 15pt;
+}
+.container{
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}  
+.seletor{ 
+    grid-area: 1 / 1 / 2 / 4;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+}
+.seletor select{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+}
+.bandeira { 
+    grid-area: 2 / 1 / 3 / 3;
+    width: 100%;
+    text-align: center;
+}
+.fronteira{ 
+    grid-area: 2 / 3 / 4 / 4;
+    width: 100%;
+    padding: 10px;
+}
+.fronteira h1{
+    text-align: center;
+}
+.infos{ 
+    grid-area: 3 / 1 / 4 / 3;
+    width: 100%;
+    padding: 10px;
+}
+.infos #name{
+    text-align: center;
+    font-size: 25pt;
+    padding-bottom: 10px;
+}
