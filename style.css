@@ -64,6 +64,13 @@ h3{
 }
 .fronteira h1{
     text-align: center;
+    margin-bottom: 100px;
+}
+.paises-fronteira{
+    text-align: center;
+}
+.paises-fronteira .borders{
+    cursor: pointer;
 }
 .infos{ 
     grid-area: 3 / 1 / 4 / 3;
